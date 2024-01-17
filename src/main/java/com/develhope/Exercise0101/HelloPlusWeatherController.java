@@ -14,7 +14,7 @@ public class HelloPlusWeatherController {
             @RequestParam String name,
             @RequestParam String region
     ) {
-        return "Ciao" + name + ", come è il tempo in " + region + "?";
+        return "Ciao " + name + ", come è il tempo in " + region + "?";
     }
 
 }
